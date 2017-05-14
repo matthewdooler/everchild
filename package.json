@@ -1,19 +1,31 @@
 {
-  "name": "everchild",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-game-kit": "0.0.2"
-  },
-  "devDependencies": {
-    "react-scripts": "0.9.5"
-  },
+  "name": "PhaserES6Webpack",
+  "version": "1.0.0",
+  "description": "",
+  "author": "leandro cabrera <leandcabrera@gmail.com>",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "dev": "webpack",
+    "deploy": "webpack --config webpack.production.config.js",
+    "test": "eslint ./src/**/**.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.8",
+    "browser-sync-webpack-plugin": "^1.1.4",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "expose-loader": "^0.7.3",
+    "webpack": "^2.5.0"
+  },
+  "dependencies": {
+    "phaser-ce": "^2.7.7",
+    "webfontloader": "^1.6.27"
   }
 }

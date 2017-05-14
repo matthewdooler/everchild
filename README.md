@@ -1,14 +1,8 @@
 # EverChild
 
 ## Commands
-`yarn start`  
+`yarn run dev`  
 Starts the development server.
 
-`yarn run build`  
-Bundles the app into static files for production.
-
-`yarn test`  
-Starts the test runner.
-
-`yarn run eject`  
-Removes this tool and copies build dependencies, configuration files and scripts into the app directory. If you do this, you can’t go back!
+`yarn run deploy`  
+This will optimize and minimize the compiled bundle for deployment.
